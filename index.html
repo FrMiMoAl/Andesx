@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Robotic Chess – Proyecto 2025</title>
-  <meta name="description" content="Kit educativo de brazo robótico con ROS 2 para jugar ajedrez y aprender robótica, visión y PCB." />
+  <title>Quinoa Andes – Agricultura Satelital Inteligente</title>
+  <meta name="description" content="Plataforma satelital para optimizar el cultivo de quinoa en los Andes: elección de terreno, monitoreo de humedad, estrés hídrico y productividad." />
   <style>
     :root{
-      /* Paleta inspirada en KUKA */
+      /* Paleta mantenida */
       --bg:#0b0e12;--bg2:#0a0c10;--card:#111418;--card2:#0c0f14;--muted:#b2bdc7;--txt:#eef2f6;
-      --acc:#ff6a00;         /* KUKA orange */
-      --acc2:#ff9a3c;        /* degradado cálido */
+      --acc:#ff6a00;
+      --acc2:#ff9a3c;
       --ring:#ff6a00;
       --shadow:0 10px 30px rgba(0,0,0,.35);
     }
@@ -95,7 +95,7 @@
   <!-- NAVBAR -->
   <nav class="nav">
     <div class="wrap">
-      <div class="brand"><span class="dot"></span><h1>Robotic Chess</h1></div>
+      <div class="brand"><span class="dot"></span><h1>Quinoa Andes</h1></div>
       <div class="menu">
         <a href="#inicio">Inicio</a>
         <a href="#quienes">Quiénes somos</a>
@@ -113,21 +113,37 @@
     <div class="hero-card reveal">
       <div class="hero-top">
         <div>
-          <!-- Video principal (usa el que ya tienes cargado) -->
-          <video controls autoplay muted playsinline loop poster="assets/poster.jpg">
-            <source src="assets/sce-2-2025-proyectos_lDg4pIKe.mp4" type="video/mp4" />
-            <source src="sce-2-2025-proyectos_lDg4pIKe.mp4" type="video/mp4" />
+          <!-- Video principal: cámbialo por uno de tu proyecto si quieres -->
+          <video controls autoplay muted playsinline loop poster="assets/quinoa-poster.jpg">
+            <source src="assets/quinoa-demo.mp4" type="video/mp4" />
             Tu navegador no soporta video HTML5.
           </video>
         </div>
         <div class="hero-info">
-          <h2>Robotic Chess</h2>
-          <p>En un mundo que continúa su proceso de industrialización, los robots y equipos industriales se vuelven cada vez más presentes en nuestra vida cotidiana. Con esta situación en mente, se plantea un desafío cultural al incorporar una herramienta como el brazo robótico KUKA KR6 R900 SIXX en partidas de ajedrez. El enfoque principal radica en comprender cómo estas tecnologías pueden ser integradas en diversos entornos culturales. En este proceso, se respetan las normas y la riqueza cultural inherentes al ajedrez, al tiempo que se promueve y fortalece la interacción entre humanos y robots en este contexto.</p>
+          <h2>Quinoa Andes – Agricultura Satelital Inteligente</h2>
+          <p>
+            Ayudamos a productores y cooperativas de quinoa en los Andes a decidir 
+            <b>dónde sembrar, cuándo regar y cómo intervenir a tiempo</b>, 
+            usando imágenes satelitales y modelos geoespaciales pensados para altura, 
+            microclimas y suelos heterogéneos.
+          </p>
           <div class="kpis">
-            <div class="kpi"><b></b><span>Diseñar y construir un tablero de ajedrez electrónico capaz de detectar la posición de sus piezas</span></div>
-            <div class="kpi"><b></b><span>Usar los datos obtenidos del tablero en un motor de ajedrez capaz de determinar la mejor jugada según el nivel de dificultad.</span></div>
-            <div class="kpi"><b></b><span>Realizar el planeamiento de ruta del brazo robótico KUKA basado en la jugada obtenida, buscando un movimiento óptimo, rápido y priorizando la seguridad de sus usuarios.</span></div>
-            <div class="kpi"><b></b><span>Verificar y comprobar si el sistema es capaz de jugar varias partidas de ajedrez, en diferentes niveles de dificultad contra oponentes humanos sin ningún percance. </span></div>
+            <div class="kpi">
+              <b>Terreno óptimo</b>
+              <span>Identificamos zonas con mejor potencial de rendimiento antes de sembrar.</span>
+            </div>
+            <div class="kpi">
+              <b>Menos riesgo hídrico</b>
+              <span>Detectamos estrés por sequía o exceso de agua usando índices satelitales.</span>
+            </div>
+            <div class="kpi">
+              <b>Ahorro en insumos</b>
+              <span>Reducimos fertilizantes y riego innecesario con decisiones basadas en datos.</span>
+            </div>
+            <div class="kpi">
+              <b>Más ingresos/ha</b>
+              <span>Mejor selección de parcelas y monitoreo constante para aumentar la productividad.</span>
+            </div>
           </div>
         </div>
       </div>
@@ -138,24 +154,21 @@
   <section id="quienes" class="reveal">
     <div class="card about">
       <div class="photo">
-        <img src="quienes.jpg" alt="Equipo Robotic Chess" />
+        <!-- Usa una foto de equipo / campo -->
+        <img src="equipo-quinoa.jpg" alt="Equipo Quinoa Andes en campo" />
       </div>
       <div class="text">
-        <span class="pill">Sobre el equipo</span>
+        <span class="pill">Sobre el proyecto</span>
         <h3>Quiénes somos</h3>
-        <p>Somos un equipo de estudiantes, amantes del ajedrez y entusiastas de robótica que impulsa <b>Robotic Chess</b>, un proyecto educativo para aprender <b>ROS 2</b>, <b>diseño de PCB</b> y <b>visión por computadora</b> a través de un brazo robótico que juega ajedrez.</p>
+        <p>
+          Somos un equipo de <b>ingeniería, ciencias de datos y agronomía</b> que quiere llevar 
+          la observación satelital a los productores de quinoa de Puno, Ayacucho, Cusco y Arequipa.
+          Nuestro objetivo es traducir mapas complejos en decisiones simples y accionables 
+          para el campo andino.
+        </p>
       </div>
     </div>
   </section>
-
-  <!-- QUÉ HICIMOS -->
-  
-
-  <!-- QUÉ HACEMOS (hoy) -->
-  
-
-  <!-- QUÉ QUEREMOS HACER (futuro) -->
-  
 
   <!-- RUTA (Pasado, Presente, Futuro) -->
   <section id="ruta" class="reveal">
@@ -165,62 +178,99 @@
     </div>
     <div class="timeline">
       <div id="hicimos" class="stage past">
-        <div class="stage-head"><span>Pasado</span><h4>Qué hicimos</h4></div>
+        <div class="stage-head">
+          <span>Pasado</span><h4>Qué hicimos</h4>
+        </div>
         <ul class="clean">
-          <li><b>Trabajo con KUKA + ROS:</b> integración y pruebas; captura y registro de posiciones por puerto serie; validación del flujo para el tablero.</li>
-          <li><b>PCB Doble Cara:</b> Integracion completa del circuito.</li>
+          <li>
+            <b>Investigación satelital:</b> mapeamos qué constelaciones y sensores sirven 
+            para humedad, vegetación, temperatura y pendientes (Planet, Sentinel, Landsat, SMAP, SAOCOM, SRTM).
+          </li>
+          <li>
+            <b>Validación del problema:</b> recopilamos evidencia de riego por intuición, 
+            uso excesivo de fertilizantes y mala elección de terrenos en agricultura andina.
+          </li>
+          <li>
+            <b>Benchmarks globales:</b> analizamos plataformas como EOS Crop Monitoring, 
+            Kilimo, Space AG y otras soluciones de monitoreo agrícola.
+          </li>
         </ul>
       </div>
       <div id="hacemos" class="stage present">
-        <div class="stage-head"><span>Presente</span><h4>Qué hacemos</h4></div>
+        <div class="stage-head">
+          <span>Presente</span><h4>Qué hacemos</h4>
+        </div>
         <ul class="clean">
-          <li><b>Kit educativo:</b> prototipo de brazo para prácticas de ROS 2 y documentación del pipeline (hardware → drivers → nodos).</li>
-          <li><b>PCB Modular:</b> rediseño de placas doble cara para facilitar mejoras y revisión de errores.</li>
-          <li><b>Software base:</b> Programacion Basica Ros2 mínimos funcionales.</li>
-          <li><b>Tablero:</b> Iterfaz que guarda posiciones del tablero y exporta CSV.</li>
+          <li>
+            <b>MVP de mapas de aptitud:</b> combinamos humedad histórica, NDVI/EVI, 
+            pendiente y clima para clasificar parcelas en <i>Alta, Media, Baja</i> productividad potencial.
+          </li>
+          <li>
+            <b>Monitoreo semanal:</b> generamos mapas de vigor y posibles zonas de estrés hídrico 
+            para apoyar decisiones de riego y fertilización.
+          </li>
+          <li>
+            <b>Interfaz simple:</b> traducimos “rojo/verde” en recomendaciones tipo 
+            “Siembra aquí”, “Riega esta zona”, “Revisa por posible plaga”.
+          </li>
+          <li>
+            <b>Pruebas piloto:</b> estamos preparando pilotos con cooperativas y productores 
+            para validar el modelo técnico y de negocio.
+          </li>
         </ul>
       </div>
       <div id="queremos" class="stage future">
-        <div class="stage-head"><span>Futuro</span><h4>Qué queremos hacer</h4></div>
+        <div class="stage-head">
+          <span>Futuro</span><h4>Qué queremos hacer</h4>
+        </div>
         <ul class="clean">
-          <li><b>Visión + IA:</b> insertar cámara y empezar la implementacion de visión para lectura óptima del tablero.</li>
-          <li><b>Hardware propio:</b> diseñar nuestro brazo para no depender del KUKA .</li>
-          <li><b>Comunidad:</b> organizar torneo de ajedrez y publicar paquetes de aprendizaje.</li>
+          <li>
+            <b>Predicción de rendimiento:</b> integrar modelos de IA que anticipen 
+            rendimiento por parcela y alerten riesgos con semanas de anticipación.
+          </li>
+          <li>
+            <b>App móvil para agricultores:</b> una interfaz tan simple como WhatsApp, 
+            enfocada en mensajes claros y alertas por parcela.
+          </li>
+          <li>
+            <b>Escalar a otros cultivos andinos:</b> llevar la plataforma a cañihua, papa nativa 
+            y otros cultivos de altura poco atendidos por plataformas globales.
+          </li>
         </ul>
       </div>
     </div>
   </section>
 
-  <!-- CONVOCATORIA / REQUISITOS & OBJETIVOS (desde tus slides) -->
+  <!-- CONVOCATORIA / REQUISITOS & OBJETIVOS -->
   <section class="reveal">
     <div class="card">
-      <span class="pill">Convocatoria</span>
-      <h3>Requisitos y Objetivos</h3>
+      <span class="pill">Colaboración y objetivos</span>
+      <h3>Requisitos y objetivos</h3>
       <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(240px,1fr))">
         <div>
           <h4>Requisitos</h4>
           <ul class="clean">
-            <li>Responsabilidad</li>
-            <li>Tiempo</li>
+            <li>Interés por agricultura andina y tecnología.</li>
+            <li>Responsabilidad y tiempo para pruebas de campo.</li>
+            <li>Ganas de aprender sobre datos, satélites y mapas.</li>
           </ul>
         </div>
         <div>
           <h4>Objetivos</h4>
           <ul class="clean">
-            <li>Finalización del proyecto</li>
-            <li>Corrección de placas PCB</li>
-            <li>Unión de subsistemas</li>
-            <li>Organización de torneo de ajedrez</li>
+            <li>Lanzar y documentar pilotos con productores/cooperativas.</li>
+            <li>Ajustar el modelo de negocio (precio por ha, tipo de cliente).</li>
+            <li>Mejorar la precisión de mapas de aptitud y monitoreo.</li>
+            <li>Validar que la herramienta reduce costos y pérdidas reales.</li>
           </ul>
         </div>
         <div>
           <h4>¿Por qué formar parte?</h4>
           <ul class="clean">
-            <li>Conocimiento</li>
-            <li>Aprender ROS</li>
-            <li>Aprender visión</li>
-            <li>Diseño CAD</li>
-            <li>Diseño de PCB</li>
+            <li>Impacto directo en productores andinos de quinoa.</li>
+            <li>Experiencia en observación de la Tierra aplicada.</li>
+            <li>Portafolio real en datos, SIG y producto digital.</li>
+            <li>Posibilidad de escalar a una startup con foco en Andes.</li>
           </ul>
         </div>
       </div>
@@ -230,13 +280,25 @@
   <!-- GALERÍA -->
   <section id="galeria" class="reveal">
     <div class="card">
-      <span class="pill">Fotos del proyecto</span>
+      <span class="pill">Mapas y campo</span>
       <h3>Galería</h3>
       <div class="gallery">
-        <figure><img src="foto1.jpg" alt="tablero"/><figcaption>KUKA + ROS 2</figcaption></figure>
-        <figure><img src="foto2.jpg" alt="PCB Modular"/><figcaption>PCB Modular</figcaption></figure>
-        <figure><img src="foto3.jpg" alt="Kit educativo brazo"/><figcaption>Kit educativo</figcaption></figure>
-        <figure><img src="foto4.jpg" alt="Pruebas de tablero"/><figcaption>Pruebas tablero</figcaption></figure>
+        <figure>
+          <img src="mapa-pendientes.jpg" alt="Mapa de pendientes y altitud" />
+          <figcaption>Pendientes y altitud (SRTM)</figcaption>
+        </figure>
+        <figure>
+          <img src="ndvi-quinoa.jpg" alt="NDVI en parcelas de quinoa" />
+          <figcaption>NDVI de parcelas de quinoa</figcaption>
+        </figure>
+        <figure>
+          <img src="campo-quinoa.jpg" alt="Campo de quinoa en los Andes" />
+          <figcaption>Campo de quinoa andino</figcaption>
+        </figure>
+        <figure>
+          <img src="reunion-agricultores.jpg" alt="Reunión con agricultores" />
+          <figcaption>Trabajo con agricultores</figcaption>
+        </figure>
       </div>
     </div>
   </section>
@@ -245,33 +307,44 @@
   <section id="contacto" class="reveal">
     <div class="card">
       <span class="pill">Súmate</span>
-      <h3>¿Te interesa colaborar o apoyar?</h3>
+      <h3>¿Te interesa pilotear o apoyar el proyecto?</h3>
       <div class="cta">
-        <a class="btn" href="https://chat.whatsapp.com/HcEhvkgedBYCYt4G4D6NDT?mode=wwt">Quiero sumarme</a>
-        <a class="btn ghost" href="https://wa.me/qr/AAKZZCXII6UQI1" target="_blank" rel="noopener">Canal / Chat</a>
+        <!-- Cambia los enlaces por tus links reales -->
+        <a class="btn" href="https://wa.me/00000000000" target="_blank" rel="noopener">Quiero una demo</a>
+        <a class="btn ghost" href="mailto:contacto@quinoa-andes.test">Escríbenos por correo</a>
       </div>
-      <p style="margin-top:8px;color:var(--muted)"></p>
+      <p style="margin-top:8px;color:var(--muted)">
+        Buscamos cooperativas, agroexportadoras y organizaciones que quieran validar 
+        la plataforma en sus parcelas de quinoa.
+      </p>
     </div>
   </section>
 
   <footer>
-    <small>© 2025 Robotic Chess. Hecho con para aprender y compartir.</small>
+    <small>© 2025 Quinoa Andes. Proyecto para optimizar el cultivo de quinoa con datos satelitales.</small>
   </footer>
 
   <script>
-    // Smooth scroll (por si se pega en algún host)
+    // Smooth scroll
     document.querySelectorAll('.menu a').forEach(a=>{
       a.addEventListener('click',e=>{
         const id = a.getAttribute('href');
-        if(id.startsWith('#')){e.preventDefault();document.querySelector(id)?.scrollIntoView({behavior:'smooth'});}
+        if(id.startsWith('#')){
+          e.preventDefault();
+          document.querySelector(id)?.scrollIntoView({behavior:'smooth'});
+        }
       });
     });
     // Revelar al hacer scroll
     const io = new IntersectionObserver((entries)=>{
-      entries.forEach(en=>{if(en.isIntersecting){en.target.classList.add('on');io.unobserve(en.target);}})
+      entries.forEach(en=>{
+        if(en.isIntersecting){
+          en.target.classList.add('on');
+          io.unobserve(en.target);
+        }
+      })
     },{threshold:.1});
     document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
   </script>
 </body>
 </html>
-
